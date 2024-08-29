@@ -43,18 +43,18 @@ def step_motor(steps):
 
 # Constants
 STEPS_PER_REVOLUTION = 64*8  # 28BYJ-48 64*64/8 steps per revolytion
-STEPS_PER_ITERATION = STEPS_PER_REVOLUTION // 12
 
 while True:
     print("looping")
-    # Random interval between 30 and 60 minutes (45 minutes +/- 15 minutes)
-    interval_minutes = n - urandom.randint(0, m)
+    # Coming back after the baseline iteration minus a little randomly chosen time to spare
+    time_to_spare = urandom.randint(0,m)  
+    interval_minutes = n - time_to_spare
     interval_seconds = interval_minutes * 60
-    
+    STEPS_TO_TURN = STEPS_PER_REVOLUTION // (12*(n-time_to_spare)/60)
 
     # Wait
     time.sleep(interval_seconds)
     
     # Move the motor 
-    step_motor(STEPS_PER_ITERATION)
+    step_motor(STEPS_TO_TURN)
 

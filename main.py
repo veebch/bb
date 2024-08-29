@@ -6,8 +6,8 @@ import time
 import urandom
 from machine import Pin
 
-n = 60 # Baseline time (minutes)
-m = 15 # Margin of error (minutes)
+n = 1 # Baseline time (minutes)
+m = 0 # Margin of error (minutes)
 
 # Define motor pins and steps
 IN1 = Pin(21, Pin.OUT)

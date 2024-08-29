@@ -6,8 +6,8 @@ import time
 import urandom
 from machine import Pin
 
-n = 1 # Baseline time (minutes)
-m = 0 # Margin of error (minutes)
+n = 60 # Baseline time (minutes)
+m = 15 # Margin of error (minutes)
 
 # Define motor pins and steps
 IN1 = Pin(21, Pin.OUT)
@@ -48,7 +48,7 @@ STEPS_PER_ITERATION = STEPS_PER_REVOLUTION // 12
 while True:
     print("looping")
     # Random interval between 30 and 60 minutes (45 minutes +/- 15 minutes)
-    interval_minutes = n + urandom.randint(0, m)
+    interval_minutes = n - urandom.randint(0, m)
     interval_seconds = interval_minutes * 60
     
 

@@ -57,3 +57,4 @@ while True:
     
     # Move the motor 
     step_motor(STEPS_TO_TURN)
+

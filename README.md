@@ -11,4 +11,4 @@ This is a fictional use case for a simple few lines of code, a microcontroller a
 - An application that requires turning a thing at roughly predefined intervals
 - 3d Printed parts (optional)
 
-(If you're powering this project from a powerbank then make sure it's in low current mode, otherwise it will switch off due to low current)
+(If you're powering this project from a powerbank then make sure it's in low current mode, otherwise it will switch off due to low current required to power the pico)

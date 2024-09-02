@@ -1,6 +1,6 @@
 # A 1-coffee long project that will turn a cheap stepper motor by a defined amount every n to n + m minutes. 
 # This is a solution looking for a problem. Proof of concept on Blue Parking Disc that auto-adjusts.
-# This example is purely didactic and we're not suggesting that's what you use it for.
+# Purely didactic proof-of-concept and we're not suggesting you use it for parking.
 
 import time
 import urandom

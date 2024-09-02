@@ -9,7 +9,7 @@ This is a fictional use case that's a basic introduction to working with a micro
 - Stepper Motor and Driver Board (we use the 28BYJ-48 and ULN2003)
 - 6 wires, ideally with female dupont connectors at one end
 - An application that requires turning a thing at roughly predefined intervals
-- 3d Printed parts (optional case in [3d](./3d))
+- 3d Printed parts (optional case in the directory [3d](./3d))
 
 ## Power
 

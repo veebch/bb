@@ -21,3 +21,10 @@ You can power this via a Lipo Battery or a Powerbank.
 If you want to use a Lipo Battery then there is plenty of space in the case to house one. You'll need to use some extra hardware to do so (eg adafruit micro lipo) or use a microcontroller that is compatible with a battery (PicoLipo, Waveshare RP2040 Plus etc)
 
 If you're powering this project from a powerbank then make sure it's in low current mode, otherwise it will switch off due to low current required to power the Microcontroller
+
+## Video 
+
+An overview of the build and a demo of it in action:
+
+[![YouTube](http://i.ytimg.com/vi/LisX4vcqEus/hqdefault.jpg)](https://www.youtube.com/watch?v=LisX4vcqEus)
+

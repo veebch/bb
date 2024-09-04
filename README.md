@@ -5,7 +5,7 @@
 
 # BB
 
-This is a fictional use case that's a basic introduction to working with a microcontroller. It uses a microcontroller, a stepper motor and a simple Python program. Assembly is easy and build time is an hour or so (3d print time not included). 
+This is a fictional use case that's a basic introduction to working with a microcontroller. It combines a microcontroller with a stepper motor and a simple Python program. Assembly is easy and build time is an hour or so (3d print time not included). 
 
 ## You'll need:
 - Raspberry Pi Pico or other 2040 microcontroller

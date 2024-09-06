@@ -35,6 +35,8 @@ Connect Pico to the driver board. For the ULN2003 this means connecting the powe
 
 The motor is then connected to the board and you're done, simply attach the pico and driver board to the case and place the lid on top. You can also clip the 3d printed cover on top of the motor and then the plate which gets stuck to the wheel on the back of the parking badge (we used velcro for this). 
 
+Now secure the body of the ticket to the lid of the case you made for the pico/board. This means when the motor turns, only the dial moves. 
+
 ## Installing Code on Pico
 
 Download a `uf2` image from the [Pimoroni github repository](https://github.com/pimoroni/pimoroni-pico/releases) and install it on the Pico according to the instructions. You need to use the Pimoroni image to be able to use Pimoroni drivers for the light sensor.

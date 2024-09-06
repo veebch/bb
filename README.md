@@ -14,7 +14,7 @@ This is a fictional use case that's a basic introduction to working with a micro
 - 3d Printed parts (optional case in the directory [3d](./3d))
 - A burning desire to turn a thing at roughly predefined intervals
 
-## Power
+## Powering the unit
 
 You can power this via a Lipo Battery or a Powerbank.
 
@@ -28,7 +28,7 @@ An overview of the build and a demo of it in action:
 
 [![YouTube](http://i.ytimg.com/vi/LisX4vcqEus/hqdefault.jpg)](https://www.youtube.com/watch?v=LisX4vcqEus)
 
-## Software
+## Installing Code on Pico
 
 Download a `uf2` image from the [Pimoroni github repository](https://github.com/pimoroni/pimoroni-pico/releases) and install it on the Pico according to the instructions. You need to use the Pimoroni image to be able to use Pimoroni drivers for the light sensor.
 

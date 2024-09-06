@@ -28,3 +28,27 @@ An overview of the build and a demo of it in action:
 
 [![YouTube](http://i.ytimg.com/vi/LisX4vcqEus/hqdefault.jpg)](https://www.youtube.com/watch?v=LisX4vcqEus)
 
+## Software
+
+Download a `uf2` image from the [Pimoroni github repository](https://github.com/pimoroni/pimoroni-pico/releases) and install it on the Pico according to the instructions. You need to use the Pimoroni image to be able to use Pimoroni drivers for the light sensor.
+
+Clone this repository to your computer using the commands (from a terminal):
+
+```
+cd ~
+git clone https://github.com/veebch/bb.git
+cd bb
+```
+
+Check the port of the pico with the port listing command:
+```
+python -m serial.tools.list_ports
+```
+Now, using the port path (in our case `/dev/ttyACM0`) copy the contents to the repository by installing [ampy](https://pypi.org/project/adafruit-ampy/) and using the commandGG:
+
+```
+ampy -p /dev/ttyACM0 put main.py
+```
+(*nb. make sure you are using the right port name, as shown in the port listing command above*)
+
+Done! The required file should now be on the Pico. Next time you plug in the pico to USB power the script will autorun.

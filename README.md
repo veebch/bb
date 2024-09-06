@@ -14,6 +14,14 @@ This is a fictional use case that's a basic introduction to working with a micro
 - 3d Printed parts (optional case in the directory [3d](./3d))
 - A burning desire to turn a thing at roughly predefined intervals
 
+## Video 
+
+An overview of the build and a demo of it in action:
+
+[![YouTube](http://i.ytimg.com/vi/LisX4vcqEus/hqdefault.jpg)](https://www.youtube.com/watch?v=LisX4vcqEus)
+
+# Building One
+
 ## Powering the unit
 
 You can power this via a Lipo Battery or a Powerbank.
@@ -21,12 +29,9 @@ You can power this via a Lipo Battery or a Powerbank.
 If you want to use a Lipo Battery then there is plenty of space in the case to house one. You'll need to use some extra hardware to do so (eg adafruit micro lipo) or use a microcontroller that is compatible with a battery (PicoLipo, Waveshare RP2040 Plus etc)
 
 If you're powering this project from a powerbank then make sure it's in low current mode, otherwise it will switch off due to low current required to power the Microcontroller
+## Assembly
 
-## Video 
-
-An overview of the build and a demo of it in action:
-
-[![YouTube](http://i.ytimg.com/vi/LisX4vcqEus/hqdefault.jpg)](https://www.youtube.com/watch?v=LisX4vcqEus)
+Connect Pico to the driver board. For the ULN2003 this means connecting the power to VSYS and GND and GPIO 21,20,19 and 18 to IN1, IN2, IN3 and IN4 respectively.
 
 ## Installing Code on Pico
 

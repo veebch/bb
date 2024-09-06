@@ -31,7 +31,9 @@ If you want to use a Lipo Battery then there is plenty of space in the case to h
 If you're powering this project from a powerbank then make sure it's in low current mode, otherwise it will switch off due to low current required to power the Microcontroller
 ## Assembly
 
-Connect Pico to the driver board. For the ULN2003 this means connecting the power to VSYS and GND and GPIO 21,20,19 and 18 to IN1, IN2, IN3 and IN4 respectively.
+Connect Pico to the driver board. For the ULN2003 this means connecting the power pins to VSYS and GND and GPIO 21,20,19 and 18 to IN1, IN2, IN3 and IN4 respectively. You can also see this in the thumbnail for the video. 
+
+The motor is then connected to the board and you're done, simply attach the pico and driver board to the case and place the lid on top. You can also clip the 3d printed cover on top of the motor and then the plate which gets stuck to the wheel on the back of the parking badge (we used velcro for this). 
 
 ## Installing Code on Pico
 
